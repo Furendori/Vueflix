@@ -1,3 +1,3 @@
 <template>
-  <h1>VueFlix</h1>
+  <!-- <h1>VueFlix</h1> -->
 </template>
