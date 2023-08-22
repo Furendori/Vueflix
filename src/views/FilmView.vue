@@ -27,6 +27,6 @@ onBeforeMount(() => {
 <style>
     .movies-title {
         display: flex;
-
+        flex-direction: column;
     }
 </style>
