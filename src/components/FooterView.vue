@@ -23,3 +23,9 @@ onBeforeMount(() => {
     </div>
   </footer>
 </template>
+
+<style>
+  footer {
+    margin: 0;
+  }
+</style>

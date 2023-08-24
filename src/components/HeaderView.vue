@@ -12,7 +12,7 @@ let toggle = () => {
 <template>
   <header>
     <div class="container">
-      <h1>Vue<span class="flix">Flix</span></h1>
+      <h1 class="logo">Vue<span class="flix">Flix</span></h1>
       <div class="navigation">
         <nav class="nav-bar">
           <router-link to="/"> Accueil </router-link>
@@ -43,6 +43,10 @@ let toggle = () => {
   padding: 0;
 } */
 
+header {
+  padding: 16px 0;
+}
+
 .container {
   position: relative;
   width: 100%;
@@ -58,25 +62,31 @@ let toggle = () => {
 a {
   color: white;
   text-decoration: none;
+  font-size: large;
 }
 
 .user-logged {
   color: white;
 }
 
-.homeview-app {
-  margin: 0;
-}
-
 .navigation {
+  position: relative;
   display: flex;
+  margin-left: 75%;
 }
 
-h1 {
+.nav-bar {}
+
+.logo {
   margin: 0;
 }
 
 .flix {
   color: darksalmon;
 }
+
+h1 {
+  
+}
+
 </style>
